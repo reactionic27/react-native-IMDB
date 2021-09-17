@@ -1,8 +1,8 @@
 import App from '../App';
-import {shallow, ShallowWrapper} from 'enzyme';
+import { shallow, ShallowWrapper } from 'enzyme';
 import React from 'react';
 
-import {LoadingSpinner} from '../src/components/LoadingSpinner';
+import { LoadingSpinner } from '../src/components/LoadingSpinner';
 
 describe('App', () => {
   describe('rendering', () => {

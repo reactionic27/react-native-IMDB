@@ -3,7 +3,7 @@ import {
   GET_ALL_USERS_SUCCESS,
   GET_ALL_USERS_FAILURE,
 } from '../constants';
-import {UserState} from '../types';
+import { UserState } from '../types';
 
 const initialState: UserState = {
   users: [],

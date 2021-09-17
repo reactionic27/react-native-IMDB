@@ -1,12 +1,12 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 type HeaderProps = {
   title: string;
 };
 
 export function Header(props: HeaderProps) {
-  const {title} = props;
+  const { title } = props;
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>

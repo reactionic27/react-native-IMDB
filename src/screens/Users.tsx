@@ -1,4 +1,4 @@
-import React, {useState, useEffect, Fragment, useCallback} from 'react';
+import React, { useState, useEffect, Fragment, useCallback } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -7,20 +7,20 @@ import {
   FlatList,
   Image,
 } from 'react-native';
-import {useDispatch, useSelector} from 'react-redux';
-import {Header} from '../components/Header';
-import {GET_ALL_USERS_REQUEST} from '../redux/constants';
-import {getUserState} from '../redux/selectors';
+import { useDispatch, useSelector } from 'react-redux';
+import { Header } from '../components/Header';
+import { GET_ALL_USERS_REQUEST } from '../redux/constants';
+import { getUserState } from '../redux/selectors';
 
 export function Users() {
   const dispatch = useDispatch();
-  const {users} = useSelector(getUserState);
+  const { users } = useSelector(getUserState);
   const [page, setPage] = useState<number>(1);
 
   const fetchMore = useCallback(() => setPage(page + 1), [page]);
 
   useEffect(() => {
-    dispatch({type: GET_ALL_USERS_REQUEST, payload: {page}});
+    dispatch({ type: GET_ALL_USERS_REQUEST, payload: { page } });
   }, [dispatch, page]);
 
   return (
@@ -32,9 +32,9 @@ export function Users() {
           <FlatList
             data={users}
             keyExtractor={(item) => item.email}
-            renderItem={({item}) => (
+            renderItem={({ item }) => (
               <View style={styles.listItem}>
-                <Image source={{uri: item.avatar}} style={styles.avatar} />
+                <Image source={{ uri: item.avatar }} style={styles.avatar} />
                 <Text style={styles.name}>
                   {`${item.first_name} ${item.last_name}`}
                 </Text>

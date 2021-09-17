@@ -1,7 +1,7 @@
-import {shallow, ShallowWrapper} from 'enzyme';
+import { shallow, ShallowWrapper } from 'enzyme';
 import React from 'react';
-import {SafeAreaView} from 'react-native';
-import {LoadingSpinner} from '../../src/components/LoadingSpinner';
+import { SafeAreaView } from 'react-native';
+import { LoadingSpinner } from '../../src/components/LoadingSpinner';
 
 describe('LoadingSpinner', () => {
   describe('rendering', () => {

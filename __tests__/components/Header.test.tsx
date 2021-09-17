@@ -1,7 +1,7 @@
-import {shallow, ShallowWrapper} from 'enzyme';
+import { shallow, ShallowWrapper } from 'enzyme';
 import React from 'react';
-import {View} from 'react-native';
-import {Header} from '../../src/components/Header';
+import { View } from 'react-native';
+import { Header } from '../../src/components/Header';
 
 const createTestProps = (props: Object) => ({
   ...props,
