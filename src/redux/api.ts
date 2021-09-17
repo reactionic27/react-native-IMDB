@@ -11,3 +11,7 @@ const instance = axios.create({
 export const fetchMoviesAPI = (query: string) => {
   return instance.get(`/search/movie${params}&query=${query}`);
 };
+
+export const fetchShowAPI = (query: string) => {
+  return instance.get(`/search/tv${params}&query=${query}`);
+};

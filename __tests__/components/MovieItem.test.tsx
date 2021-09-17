@@ -1,18 +1,11 @@
 import { shallow, ShallowWrapper } from 'enzyme';
 import React from 'react';
-import { View } from 'react-native';
 import { MovieItem } from '../../src/components/MovieItem';
-
-const createTestProps = (props: Object) => ({
-  ...props,
-});
 
 describe('MovieItem', () => {
   describe('rendering', () => {
     let wrapper: ShallowWrapper;
-    let props: Object;
     beforeEach(() => {
-      props = createTestProps({});
       const dummyMovie = {
         id: '123',
         title: 'Godfather',

@@ -24,7 +24,7 @@ export function MovieItem(props: Props) {
       </View>
       <View style={styles.textView}>
         <Text numberOfLines={1} style={styles.name}>
-          {item.original_title || item.title}
+          {item.original_title || item.title || item.original_name}
         </Text>
         <Text numberOfLines={2} style={styles.description}>
           {item.overview}

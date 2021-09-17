@@ -40,7 +40,7 @@ export function Movies() {
             clearButtonMode="always"
             value={query}
             onChangeText={(queryText) => handleSearch(queryText)}
-            placeholder="Search"
+            placeholder="Search Movies & TV Shows"
             style={styles.searchInput}
           />
         </View>
@@ -72,7 +72,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
   },
   searchView: {
-    marginVertical: 10,
+    borderWidth: 1,
+    borderColor: 'darkgray',
   },
   searchInput: {
     backgroundColor: '#fff',

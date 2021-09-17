@@ -5,16 +5,28 @@ import {
   GET_ALL_MOVIES_SUCCESS,
   GET_ALL_MOVIES_FAILURE,
 } from '../constants';
-import { fetchMoviesAPI } from '../api';
+import { fetchMoviesAPI, fetchShowAPI } from '../api';
 import { PayloadType } from '../types';
 
 function* getAllMovie({ payload }: PayloadType): SagaIterator {
+  let movieResponse: any = {};
+  let showResponse: any = {};
+  let errors;
   try {
-    const response = yield call(fetchMoviesAPI, payload.query);
-    yield put({ type: GET_ALL_MOVIES_SUCCESS, payload: response.data.results });
+    movieResponse = yield call(fetchMoviesAPI, payload.query);
   } catch (err) {
-    yield put({ type: GET_ALL_MOVIES_FAILURE });
+    errors = err;
   }
+  try {
+    showResponse = yield call(fetchShowAPI, payload.query);
+  } catch (err) {
+    errors = err;
+  }
+  yield put({
+    type: GET_ALL_MOVIES_SUCCESS,
+    payload: [...movieResponse.data.results, ...showResponse.data.results],
+  });
+  yield put({ type: GET_ALL_MOVIES_FAILURE });
 }
 
 export function* movieSaga(): SagaIterator {
