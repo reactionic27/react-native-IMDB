@@ -31,7 +31,7 @@ export function Movies() {
         <View style={styles.list}>
           <FlatList
             data={movies}
-            keyExtractor={(item) => item.id}
+            keyExtractor={(item) => item.id.toString()}
             renderItem={({ item }) => (
               <View style={styles.listItem}>
                 <Image
@@ -42,7 +42,10 @@ export function Movies() {
                   }}
                   style={styles.avatar}
                 />
-                <Text style={styles.name}>{item.title}</Text>
+                <View>
+                  <Text style={styles.name}>{item.title}</Text>
+                  <Text style={styles.description}>{item.overview}</Text>
+                </View>
               </View>
             )}
             onEndReachedThreshold={0.9}
@@ -78,10 +81,15 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 18,
     marginLeft: 20,
+    fontWeight: 'bold',
   },
   avatar: {
     width: 64,
     height: 64,
     borderRadius: 32,
+  },
+  description: {
+    fontSize: 14,
+    marginLeft: 20,
   },
 });
