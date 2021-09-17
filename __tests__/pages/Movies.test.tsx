@@ -2,9 +2,9 @@ import { shallow, ShallowWrapper } from 'enzyme';
 import React from 'react';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
-import { Users } from '../../src/screens/Users';
+import { Movies } from '../../src/screens/Movies';
 
-describe('Users', () => {
+describe('Movies', () => {
   const initialState = { users: [] };
   const mockStore = configureStore();
   let store: any;
@@ -15,13 +15,13 @@ describe('Users', () => {
     beforeEach(() => {
       wrapper = shallow(
         <Provider store={store}>
-          <Users />
+          <Movies />
         </Provider>,
       );
     });
 
-    it('should render a Users component', () => {
-      expect(wrapper.find(Users)).toHaveLength(1);
+    it('should render a Movies component', () => {
+      expect(wrapper.find(Movies)).toHaveLength(1);
     });
   });
 });

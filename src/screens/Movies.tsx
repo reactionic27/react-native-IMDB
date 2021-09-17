@@ -9,35 +9,40 @@ import {
 } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import { Header } from '../components/Header';
-import { GET_ALL_USERS_REQUEST } from '../redux/constants';
-import { getUserState } from '../redux/selectors';
+import { GET_ALL_MOVIES_REQUEST } from '../redux/constants';
+import { getMovieState } from '../redux/selectors';
 
-export function Users() {
+export function Movies() {
   const dispatch = useDispatch();
-  const { users } = useSelector(getUserState);
+  const { movies } = useSelector(getMovieState);
   const [page, setPage] = useState<number>(1);
 
   const fetchMore = useCallback(() => setPage(page + 1), [page]);
 
   useEffect(() => {
-    dispatch({ type: GET_ALL_USERS_REQUEST, payload: { page } });
+    dispatch({ type: GET_ALL_MOVIES_REQUEST });
   }, [dispatch, page]);
 
   return (
     <Fragment>
       <SafeAreaView style={styles.banner} />
       <SafeAreaView style={styles.container}>
-        <Header title="Users" />
+        <Header title="Movies" />
         <View style={styles.list}>
           <FlatList
-            data={users}
-            keyExtractor={(item) => item.email}
+            data={movies}
+            keyExtractor={(item) => item.id}
             renderItem={({ item }) => (
               <View style={styles.listItem}>
-                <Image source={{ uri: item.avatar }} style={styles.avatar} />
-                <Text style={styles.name}>
-                  {`${item.first_name} ${item.last_name}`}
-                </Text>
+                <Image
+                  source={{
+                    uri: `https://image.tmdb.org/t/p/w400${
+                      item.backdrop_path || item.poster_path
+                    }`,
+                  }}
+                  style={styles.avatar}
+                />
+                <Text style={styles.name}>{item.title}</Text>
               </View>
             )}
             onEndReachedThreshold={0.9}

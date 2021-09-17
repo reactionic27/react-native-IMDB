@@ -1,17 +1,26 @@
-export type UserType = {
+export type MovieType = {
   id: string;
-  email: string;
-  first_name: string;
-  last_name: string;
-  avatar?: string;
+  title: string;
+  media_type: string;
+  backdrop_path: string;
+  original_language: string;
+  original_title: string;
+  overview: string;
+  popularity: number;
+  poster_path: string;
+  release_date: string;
+  video: boolean;
+  adult: boolean;
+  vote_average: number;
+  vote_count: number;
 };
 
-export type UserState = {
-  users: UserType[];
+export type MovieState = {
+  movies: MovieType[];
 };
 
 export type RootState = {
-  userState: UserState;
+  movieState: MovieState;
 };
 
 export type PayloadType = {
