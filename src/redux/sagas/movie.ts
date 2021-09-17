@@ -10,7 +10,7 @@ import { PayloadType } from '../types';
 
 function* getAllMovie({ payload }: PayloadType): SagaIterator {
   try {
-    const response = yield call(fetchMoviesAPI);
+    const response = yield call(fetchMoviesAPI, payload.query);
     yield put({ type: GET_ALL_MOVIES_SUCCESS, payload: response.data.results });
   } catch (err) {
     yield put({ type: GET_ALL_MOVIES_FAILURE });

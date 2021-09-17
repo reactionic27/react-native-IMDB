@@ -8,6 +8,6 @@ const instance = axios.create({
   baseURL: 'https://api.themoviedb.org/3',
 });
 
-export const fetchMoviesAPI = () => {
-  return instance.get(`/trending/all/day${params}`);
+export const fetchMoviesAPI = (query: string) => {
+  return instance.get(`/search/movie${params}&query=${query}`);
 };

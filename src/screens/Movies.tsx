@@ -3,59 +3,52 @@ import {
   SafeAreaView,
   StyleSheet,
   View,
-  Text,
   FlatList,
-  Image,
-  Dimensions,
+  TextInput,
 } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
+import { MovieItem } from '../components/MovieItem';
 import { GET_ALL_MOVIES_REQUEST } from '../redux/constants';
 import { getMovieState } from '../redux/selectors';
-
-const screenWidth = Dimensions.get('window').width;
 
 export function Movies() {
   const dispatch = useDispatch();
   const { movies } = useSelector(getMovieState);
   const [page, setPage] = useState<number>(1);
-
+  const [query, setQuery] = useState('');
   const fetchMore = useCallback(() => setPage(page + 1), [page]);
 
   useEffect(() => {
-    dispatch({ type: GET_ALL_MOVIES_REQUEST });
-  }, [dispatch, page]);
+    if (query.length > 2) {
+      dispatch({ type: GET_ALL_MOVIES_REQUEST, payload: { query } });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [query]);
 
-  console.log('movies', movies);
+  const handleSearch = (text: string) => {
+    setQuery(text);
+  };
+
   return (
     <Fragment>
       <SafeAreaView style={styles.banner} />
       <SafeAreaView style={styles.container}>
+        <View style={styles.searchView}>
+          <TextInput
+            autoCapitalize="none"
+            autoCorrect={false}
+            clearButtonMode="always"
+            value={query}
+            onChangeText={(queryText) => handleSearch(queryText)}
+            placeholder="Search"
+            style={styles.searchInput}
+          />
+        </View>
         <View style={styles.list}>
           <FlatList
             data={movies}
             keyExtractor={(item) => item.id.toString()}
-            renderItem={({ item }) => (
-              <View style={styles.listItem}>
-                <View style={styles.imageView}>
-                  <Image
-                    source={{
-                      uri: `https://image.tmdb.org/t/p/w400${
-                        item.backdrop_path || item.poster_path
-                      }`,
-                    }}
-                    style={styles.avatar}
-                  />
-                </View>
-                <View style={styles.textView}>
-                  <Text numberOfLines={1} style={styles.name}>
-                    {item.title || 'No Title'}
-                  </Text>
-                  <Text numberOfLines={2} style={styles.description}>
-                    {item.overview}
-                  </Text>
-                </View>
-              </View>
-            )}
+            renderItem={({ item }) => <MovieItem item={item} />}
             onEndReachedThreshold={0.9}
             onEndReached={fetchMore}
           />
@@ -78,33 +71,11 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#FFFFFF',
   },
-  listItem: {
-    height: 96,
-    alignItems: 'center',
-    flexDirection: 'row',
-    borderBottomWidth: 1,
-    borderBottomColor: '#EEEEEE',
+  searchView: {
+    marginVertical: 10,
   },
-  imageView: {
-    width: 80,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  textView: {
-    width: screenWidth - 80,
-    paddingLeft: 10,
-    paddingRight: 10,
-  },
-  name: {
-    fontSize: 18,
-    fontWeight: 'bold',
-  },
-  avatar: {
-    width: 64,
-    height: 64,
-    borderRadius: 32,
-  },
-  description: {
-    fontSize: 14,
+  searchInput: {
+    backgroundColor: '#fff',
+    paddingHorizontal: 20,
   },
 });
