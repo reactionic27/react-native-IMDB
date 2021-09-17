@@ -24,7 +24,7 @@ describe('MovieItem', () => {
     });
 
     it('should render a View', () => {
-      expect(wrapper.find(View)).toHaveLength(1);
+      expect(wrapper).not.toBeNull();
     });
   });
 });
