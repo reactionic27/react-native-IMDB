@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "reactnativetest-tvOS.app"
-               BlueprintName = "reactnativetest-tvOS"
-               ReferencedContainer = "container:reactnativetest.xcodeproj">
+               BuildableName = "IMDB-tvOS.app"
+               BlueprintName = "IMDB-tvOS"
+               ReferencedContainer = "container:IMDB.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "reactnativetest-tvOSTests.xctest"
-               BlueprintName = "reactnativetest-tvOSTests"
-               ReferencedContainer = "container:reactnativetest.xcodeproj">
+               BuildableName = "IMDB-tvOSTests.xctest"
+               BlueprintName = "IMDB-tvOSTests"
+               ReferencedContainer = "container:IMDB.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "reactnativetest-tvOS.app"
-            BlueprintName = "reactnativetest-tvOS"
-            ReferencedContainer = "container:reactnativetest.xcodeproj">
+            BuildableName = "IMDB-tvOS.app"
+            BlueprintName = "IMDB-tvOS"
+            ReferencedContainer = "container:IMDB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "reactnativetest-tvOS.app"
-            BlueprintName = "reactnativetest-tvOS"
-            ReferencedContainer = "container:reactnativetest.xcodeproj">
+            BuildableName = "IMDB-tvOS.app"
+            BlueprintName = "IMDB-tvOS"
+            ReferencedContainer = "container:IMDB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

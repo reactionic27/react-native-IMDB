@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* reactnativetestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactnativetestTests.m */; };
+		00E356F31AD99517003FC87E /* IMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* IMDBTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* reactnativetestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactnativetestTests.m */; };
-		4B141BF14FA97C779B025A4B /* libPods-reactnativetest-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0392C4A1EF0CF9F41A3ABFBB /* libPods-reactnativetest-tvOSTests.a */; };
-		69EC4F10ABB16055791BACB4 /* libPods-reactnativetest-reactnativetestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACCD536C7F81648EB45EE31 /* libPods-reactnativetest-reactnativetestTests.a */; };
-		6DD9276ED1D7DD4D3710CCD5 /* libPods-reactnativetest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B82001590D89004BA434E7 /* libPods-reactnativetest.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* IMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* IMDBTests.m */; };
+		4B141BF14FA97C779B025A4B /* libPods-IMDB-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0392C4A1EF0CF9F41A3ABFBB /* libPods-IMDB-tvOSTests.a */; };
+		69EC4F10ABB16055791BACB4 /* libPods-IMDB-IMDBTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACCD536C7F81648EB45EE31 /* libPods-IMDB-IMDBTests.a */; };
+		6DD9276ED1D7DD4D3710CCD5 /* libPods-IMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B82001590D89004BA434E7 /* libPods-IMDB.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C34FB1C180EBEA0B4F8F0BDC /* libPods-reactnativetest-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F17B2F13F1DB534ECBE53C /* libPods-reactnativetest-tvOS.a */; };
+		C34FB1C180EBEA0B4F8F0BDC /* libPods-IMDB-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F17B2F13F1DB534ECBE53C /* libPods-IMDB-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = reactnativetest;
+			remoteInfo = IMDB;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "reactnativetest-tvOS";
+			remoteInfo = "IMDB-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* reactnativetestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactnativetestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* IMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* reactnativetestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactnativetestTests.m; sourceTree = "<group>"; };
-		0392C4A1EF0CF9F41A3ABFBB /* libPods-reactnativetest-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativetest-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* reactnativetest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactnativetest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reactnativetest/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = reactnativetest/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactnativetest/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactnativetest/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactnativetest/main.m; sourceTree = "<group>"; };
-		20F17B2F13F1DB534ECBE53C /* libPods-reactnativetest-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativetest-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2ACCD536C7F81648EB45EE31 /* libPods-reactnativetest-reactnativetestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativetest-reactnativetestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* reactnativetest-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactnativetest-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* reactnativetest-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactnativetest-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52B82001590D89004BA434E7 /* libPods-reactnativetest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativetest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7258D0663A2705DC261096BF /* Pods-reactnativetest-reactnativetestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativetest-reactnativetestTests.release.xcconfig"; path = "Target Support Files/Pods-reactnativetest-reactnativetestTests/Pods-reactnativetest-reactnativetestTests.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reactnativetest/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8506EDE25F51A8FA1E277BBF /* Pods-reactnativetest-reactnativetestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativetest-reactnativetestTests.debug.xcconfig"; path = "Target Support Files/Pods-reactnativetest-reactnativetestTests/Pods-reactnativetest-reactnativetestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9228A05F3AB105C43A067BC8 /* Pods-reactnativetest-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativetest-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-reactnativetest-tvOSTests/Pods-reactnativetest-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		9BC4847C0B6613DD28A4D205 /* Pods-reactnativetest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativetest.release.xcconfig"; path = "Target Support Files/Pods-reactnativetest/Pods-reactnativetest.release.xcconfig"; sourceTree = "<group>"; };
-		B1114CA997382CD5EEF28832 /* Pods-reactnativetest-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativetest-tvOS.release.xcconfig"; path = "Target Support Files/Pods-reactnativetest-tvOS/Pods-reactnativetest-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		DA658451A83062C8D4A2BFFE /* Pods-reactnativetest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativetest.debug.xcconfig"; path = "Target Support Files/Pods-reactnativetest/Pods-reactnativetest.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* IMDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMDBTests.m; sourceTree = "<group>"; };
+		0392C4A1EF0CF9F41A3ABFBB /* libPods-IMDB-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMDB-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* IMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = IMDB/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = IMDB/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = IMDB/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = IMDB/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = IMDB/main.m; sourceTree = "<group>"; };
+		20F17B2F13F1DB534ECBE53C /* libPods-IMDB-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMDB-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ACCD536C7F81648EB45EE31 /* libPods-IMDB-IMDBTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMDB-IMDBTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* IMDB-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMDB-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* IMDB-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IMDB-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B82001590D89004BA434E7 /* libPods-IMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7258D0663A2705DC261096BF /* Pods-IMDB-IMDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-IMDBTests.release.xcconfig"; path = "Target Support Files/Pods-IMDB-IMDBTests/Pods-IMDB-IMDBTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = IMDB/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8506EDE25F51A8FA1E277BBF /* Pods-IMDB-IMDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-IMDBTests.debug.xcconfig"; path = "Target Support Files/Pods-IMDB-IMDBTests/Pods-IMDB-IMDBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9228A05F3AB105C43A067BC8 /* Pods-IMDB-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-IMDB-tvOSTests/Pods-IMDB-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		9BC4847C0B6613DD28A4D205 /* Pods-IMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB.release.xcconfig"; path = "Target Support Files/Pods-IMDB/Pods-IMDB.release.xcconfig"; sourceTree = "<group>"; };
+		B1114CA997382CD5EEF28832 /* Pods-IMDB-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-tvOS.release.xcconfig"; path = "Target Support Files/Pods-IMDB-tvOS/Pods-IMDB-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		DA658451A83062C8D4A2BFFE /* Pods-IMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB.debug.xcconfig"; path = "Target Support Files/Pods-IMDB/Pods-IMDB.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		ED901ED11415F160AD21458D /* Pods-reactnativetest-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativetest-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-reactnativetest-tvOSTests/Pods-reactnativetest-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F946E9FEBF2072292239DF2C /* Pods-reactnativetest-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativetest-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-reactnativetest-tvOS/Pods-reactnativetest-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		ED901ED11415F160AD21458D /* Pods-IMDB-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-IMDB-tvOSTests/Pods-IMDB-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F946E9FEBF2072292239DF2C /* Pods-IMDB-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDB-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-IMDB-tvOS/Pods-IMDB-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69EC4F10ABB16055791BACB4 /* libPods-reactnativetest-reactnativetestTests.a in Frameworks */,
+				69EC4F10ABB16055791BACB4 /* libPods-IMDB-IMDBTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DD9276ED1D7DD4D3710CCD5 /* libPods-reactnativetest.a in Frameworks */,
+				6DD9276ED1D7DD4D3710CCD5 /* libPods-IMDB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C34FB1C180EBEA0B4F8F0BDC /* libPods-reactnativetest-tvOS.a in Frameworks */,
+				C34FB1C180EBEA0B4F8F0BDC /* libPods-IMDB-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B141BF14FA97C779B025A4B /* libPods-reactnativetest-tvOSTests.a in Frameworks */,
+				4B141BF14FA97C779B025A4B /* libPods-IMDB-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* reactnativetestTests */ = {
+		00E356EF1AD99517003FC87E /* IMDBTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* reactnativetestTests.m */,
+				00E356F21AD99517003FC87E /* IMDBTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = reactnativetestTests;
+			path = IMDBTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* reactnativetest */ = {
+		13B07FAE1A68108700A75B9A /* IMDB */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = reactnativetest;
+			name = IMDB;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				52B82001590D89004BA434E7 /* libPods-reactnativetest.a */,
-				2ACCD536C7F81648EB45EE31 /* libPods-reactnativetest-reactnativetestTests.a */,
-				20F17B2F13F1DB534ECBE53C /* libPods-reactnativetest-tvOS.a */,
-				0392C4A1EF0CF9F41A3ABFBB /* libPods-reactnativetest-tvOSTests.a */,
+				52B82001590D89004BA434E7 /* libPods-IMDB.a */,
+				2ACCD536C7F81648EB45EE31 /* libPods-IMDB-IMDBTests.a */,
+				20F17B2F13F1DB534ECBE53C /* libPods-IMDB-tvOS.a */,
+				0392C4A1EF0CF9F41A3ABFBB /* libPods-IMDB-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* reactnativetest */,
+				13B07FAE1A68108700A75B9A /* IMDB */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* reactnativetestTests */,
+				00E356EF1AD99517003FC87E /* IMDBTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				B87FE752087D4D130A895FA6 /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* reactnativetest.app */,
-				00E356EE1AD99517003FC87E /* reactnativetestTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* reactnativetest-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* reactnativetest-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* IMDB.app */,
+				00E356EE1AD99517003FC87E /* IMDBTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* IMDB-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* IMDB-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		B87FE752087D4D130A895FA6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DA658451A83062C8D4A2BFFE /* Pods-reactnativetest.debug.xcconfig */,
-				9BC4847C0B6613DD28A4D205 /* Pods-reactnativetest.release.xcconfig */,
-				8506EDE25F51A8FA1E277BBF /* Pods-reactnativetest-reactnativetestTests.debug.xcconfig */,
-				7258D0663A2705DC261096BF /* Pods-reactnativetest-reactnativetestTests.release.xcconfig */,
-				F946E9FEBF2072292239DF2C /* Pods-reactnativetest-tvOS.debug.xcconfig */,
-				B1114CA997382CD5EEF28832 /* Pods-reactnativetest-tvOS.release.xcconfig */,
-				ED901ED11415F160AD21458D /* Pods-reactnativetest-tvOSTests.debug.xcconfig */,
-				9228A05F3AB105C43A067BC8 /* Pods-reactnativetest-tvOSTests.release.xcconfig */,
+				DA658451A83062C8D4A2BFFE /* Pods-IMDB.debug.xcconfig */,
+				9BC4847C0B6613DD28A4D205 /* Pods-IMDB.release.xcconfig */,
+				8506EDE25F51A8FA1E277BBF /* Pods-IMDB-IMDBTests.debug.xcconfig */,
+				7258D0663A2705DC261096BF /* Pods-IMDB-IMDBTests.release.xcconfig */,
+				F946E9FEBF2072292239DF2C /* Pods-IMDB-tvOS.debug.xcconfig */,
+				B1114CA997382CD5EEF28832 /* Pods-IMDB-tvOS.release.xcconfig */,
+				ED901ED11415F160AD21458D /* Pods-IMDB-tvOSTests.debug.xcconfig */,
+				9228A05F3AB105C43A067BC8 /* Pods-IMDB-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* reactnativetestTests */ = {
+		00E356ED1AD99517003FC87E /* IMDBTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactnativetestTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "IMDBTests" */;
 			buildPhases = (
 				3382C4A8EACCC9D7234B48CD /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = reactnativetestTests;
-			productName = reactnativetestTests;
-			productReference = 00E356EE1AD99517003FC87E /* reactnativetestTests.xctest */;
+			name = IMDBTests;
+			productName = IMDBTests;
+			productReference = 00E356EE1AD99517003FC87E /* IMDBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* reactnativetest */ = {
+		13B07F861A680F5B00A75B9A /* IMDB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactnativetest" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "IMDB" */;
 			buildPhases = (
 				DDDFA7FB4EC0FD816AB355A6 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = reactnativetest;
-			productName = reactnativetest;
-			productReference = 13B07F961A680F5B00A75B9A /* reactnativetest.app */;
+			name = IMDB;
+			productName = IMDB;
+			productReference = 13B07F961A680F5B00A75B9A /* IMDB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* reactnativetest-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* IMDB-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactnativetest-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "IMDB-tvOS" */;
 			buildPhases = (
 				AB4575866F0A86B01E77C7F3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "reactnativetest-tvOS";
-			productName = "reactnativetest-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* reactnativetest-tvOS.app */;
+			name = "IMDB-tvOS";
+			productName = "IMDB-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* IMDB-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* reactnativetest-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* IMDB-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactnativetest-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "IMDB-tvOSTests" */;
 			buildPhases = (
 				F268947B570A2D2C73529283 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "reactnativetest-tvOSTests";
-			productName = "reactnativetest-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* reactnativetest-tvOSTests.xctest */;
+			name = "IMDB-tvOSTests";
+			productName = "IMDB-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* IMDB-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativetest" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "IMDB" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* reactnativetest */,
-				00E356ED1AD99517003FC87E /* reactnativetestTests */,
-				2D02E47A1E0B4A5D006451C7 /* reactnativetest-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* reactnativetest-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* IMDB */,
+				00E356ED1AD99517003FC87E /* IMDBTests */,
+				2D02E47A1E0B4A5D006451C7 /* IMDB-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* IMDB-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -397,7 +397,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativetest-reactnativetestTests/Pods-reactnativetest-reactnativetestTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-IMDB-IMDBTests/Pods-IMDB-IMDBTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -406,7 +406,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactnativetest-reactnativetestTests/Pods-reactnativetest-reactnativetestTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMDB-IMDBTests/Pods-IMDB-IMDBTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3382C4A8EACCC9D7234B48CD /* [CP] Check Pods Manifest.lock */ = {
@@ -424,7 +424,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactnativetest-reactnativetestTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-IMDB-IMDBTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -446,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactnativetest-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-IMDB-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -459,7 +459,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativetest/Pods-reactnativetest-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-IMDB/Pods-IMDB-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -468,7 +468,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactnativetest/Pods-reactnativetest-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMDB/Pods-IMDB-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DDDFA7FB4EC0FD816AB355A6 /* [CP] Check Pods Manifest.lock */ = {
@@ -486,7 +486,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactnativetest-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-IMDB-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -508,7 +508,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactnativetest-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-IMDB-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* reactnativetestTests.m in Sources */,
+				00E356F31AD99517003FC87E /* IMDBTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* reactnativetestTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* IMDBTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* reactnativetest */;
+			target = 13B07F861A680F5B00A75B9A /* IMDB */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* reactnativetest-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* IMDB-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8506EDE25F51A8FA1E277BBF /* Pods-reactnativetest-reactnativetestTests.debug.xcconfig */;
+			baseConfigurationReference = 8506EDE25F51A8FA1E277BBF /* Pods-IMDB-IMDBTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = reactnativetestTests/Info.plist;
+				INFOPLIST_FILE = IMDBTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactnativetest.app/reactnativetest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMDB.app/IMDB";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7258D0663A2705DC261096BF /* Pods-reactnativetest-reactnativetestTests.release.xcconfig */;
+			baseConfigurationReference = 7258D0663A2705DC261096BF /* Pods-IMDB-IMDBTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = reactnativetestTests/Info.plist;
+				INFOPLIST_FILE = IMDBTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,19 +645,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactnativetest.app/reactnativetest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMDB.app/IMDB";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA658451A83062C8D4A2BFFE /* Pods-reactnativetest.debug.xcconfig */;
+			baseConfigurationReference = DA658451A83062C8D4A2BFFE /* Pods-IMDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = reactnativetest/Info.plist;
+				INFOPLIST_FILE = IMDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = reactnativetest;
+				PRODUCT_NAME = IMDB;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +674,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BC4847C0B6613DD28A4D205 /* Pods-reactnativetest.release.xcconfig */;
+			baseConfigurationReference = 9BC4847C0B6613DD28A4D205 /* Pods-IMDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = reactnativetest/Info.plist;
+				INFOPLIST_FILE = IMDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +687,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = reactnativetest;
+				PRODUCT_NAME = IMDB;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F946E9FEBF2072292239DF2C /* Pods-reactnativetest-tvOS.debug.xcconfig */;
+			baseConfigurationReference = F946E9FEBF2072292239DF2C /* Pods-IMDB-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +706,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "reactnativetest-tvOS/Info.plist";
+				INFOPLIST_FILE = "IMDB-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.reactnativetest-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.IMDB-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1114CA997382CD5EEF28832 /* Pods-reactnativetest-tvOS.release.xcconfig */;
+			baseConfigurationReference = B1114CA997382CD5EEF28832 /* Pods-IMDB-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +734,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "reactnativetest-tvOS/Info.plist";
+				INFOPLIST_FILE = "IMDB-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.reactnativetest-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.IMDB-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED901ED11415F160AD21458D /* Pods-reactnativetest-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = ED901ED11415F160AD21458D /* Pods-IMDB-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +761,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "reactnativetest-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "IMDB-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.reactnativetest-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.IMDB-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactnativetest-tvOS.app/reactnativetest-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMDB-tvOS.app/IMDB-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9228A05F3AB105C43A067BC8 /* Pods-reactnativetest-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 9228A05F3AB105C43A067BC8 /* Pods-IMDB-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +788,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "reactnativetest-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "IMDB-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.reactnativetest-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.IMDB-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactnativetest-tvOS.app/reactnativetest-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMDB-tvOS.app/IMDB-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -919,7 +919,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactnativetestTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "IMDBTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactnativetest" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "IMDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactnativetest-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "IMDB-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +946,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactnativetest-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "IMDB-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativetest" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "IMDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
