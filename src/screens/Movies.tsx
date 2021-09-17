@@ -6,11 +6,13 @@ import {
   Text,
   FlatList,
   Image,
+  Dimensions,
 } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
-import { Header } from '../components/Header';
 import { GET_ALL_MOVIES_REQUEST } from '../redux/constants';
 import { getMovieState } from '../redux/selectors';
+
+const screenWidth = Dimensions.get('window').width;
 
 export function Movies() {
   const dispatch = useDispatch();
@@ -23,28 +25,34 @@ export function Movies() {
     dispatch({ type: GET_ALL_MOVIES_REQUEST });
   }, [dispatch, page]);
 
+  console.log('movies', movies);
   return (
     <Fragment>
       <SafeAreaView style={styles.banner} />
       <SafeAreaView style={styles.container}>
-        <Header title="Movies" />
         <View style={styles.list}>
           <FlatList
             data={movies}
             keyExtractor={(item) => item.id.toString()}
             renderItem={({ item }) => (
               <View style={styles.listItem}>
-                <Image
-                  source={{
-                    uri: `https://image.tmdb.org/t/p/w400${
-                      item.backdrop_path || item.poster_path
-                    }`,
-                  }}
-                  style={styles.avatar}
-                />
-                <View>
-                  <Text style={styles.name}>{item.title}</Text>
-                  <Text style={styles.description}>{item.overview}</Text>
+                <View style={styles.imageView}>
+                  <Image
+                    source={{
+                      uri: `https://image.tmdb.org/t/p/w400${
+                        item.backdrop_path || item.poster_path
+                      }`,
+                    }}
+                    style={styles.avatar}
+                  />
+                </View>
+                <View style={styles.textView}>
+                  <Text numberOfLines={1} style={styles.name}>
+                    {item.title || 'No Title'}
+                  </Text>
+                  <Text numberOfLines={2} style={styles.description}>
+                    {item.overview}
+                  </Text>
                 </View>
               </View>
             )}
@@ -76,11 +84,19 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     borderBottomWidth: 1,
     borderBottomColor: '#EEEEEE',
-    marginLeft: 16,
+  },
+  imageView: {
+    width: 80,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  textView: {
+    width: screenWidth - 80,
+    paddingLeft: 10,
+    paddingRight: 10,
   },
   name: {
     fontSize: 18,
-    marginLeft: 20,
     fontWeight: 'bold',
   },
   avatar: {
@@ -90,6 +106,5 @@ const styles = StyleSheet.create({
   },
   description: {
     fontSize: 14,
-    marginLeft: 20,
   },
 });
